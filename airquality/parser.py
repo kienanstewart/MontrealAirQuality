@@ -1,4 +1,5 @@
 #!/usr/bin
+# -*- coding: utf-8 -*-
 """
 For parsing the xml from http://ville.montreal.qc.ca/rsqa/servlet/makeXmlActuel?date=13/11/11
 
@@ -11,6 +12,21 @@ import os
 import unittest
 
 log = logging.getLogger(__name__)
+
+STATION_ID_TO_NAME = {
+    3: "Saint-Jean-Baptiste",
+    7: "Chénier",
+    13: "Drummond",
+    28: "Échangeur Décarie",
+    29: "Parc Pilon",
+    50: "Hochelaga-Maisonneuve",
+    55: "Rivières-des-Prairies",
+    61: "Maisonneuve",
+    66: "Aéroport de Montréal",
+    68: "Verdun",
+    80: "Molson",
+    99: "Sainte-Anne-de-Bellevue",
+}
 
 class MontrealIQADay(object):
 
@@ -32,7 +48,6 @@ class MontrealIQADay(object):
         s += '\n'
         return s
 
-
 class MontrealIQAStation(object):
     
     def __init__(self, id, name = None, measurements = []):
@@ -45,6 +60,13 @@ class MontrealIQAStation(object):
         s = 'Station id %s : name %s' %(self.id, self.name)
         s += '\n\t' + '\n\t'.join([str(x) for x in self.measurements])
         return s
+
+    def guess_name(self):
+        return STATION_ID_TO_NAME.get(
+            self.id,
+            "Euh, erreur, pas cool"
+        )
+        
 
 
 class MontrealIQAMeasurement(object):

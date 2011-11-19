@@ -6,14 +6,20 @@ auth.json:
 
 {
     "username": "kofkofmtl",
-    "oauth_token": "...",
-    "oauth_token_secret": "..."
+    "consumer_key": "...",
+    "consumer_secret": "...",
+    "access_token_key": "...",
+    "access_token_secret": "..."
 }
+
+All these values can be found here: https://dev.twitter.com/apps/1400522/show
 """
 
 import json
 
 import twitter as twitter
+
+FR_TEMPLATE = """La station {station} rapporte un niveau élevé de {pollutants} dans la dernière heure. http://bit.ly/sXfDgS"""
 
 def get_login_details():
     with open("auth.json") as auth_file:
@@ -37,8 +43,6 @@ def concat_pollutants_fr(pollutants):
             pollutants[-1]
         )
 
-FR_TEMPLATE = """La station {station} rapporte un niveau élevé de {pollutants} dans la dernière heure."""
-    
 def send_air_message(station, pollutants):
     api = get_api()
     text = FR_TEMPLATE.format(

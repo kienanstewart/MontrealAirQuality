@@ -56,3 +56,21 @@ def authenticate_w_twitter():
 
     print "ACCESS_KEY = '%s'" % auth.access_token.key
     print "ACCESS_SECRET = '%s'" % auth.access_token.secret
+
+@task
+def update_stream():
+    """The mother of all tasks to update the stream with the latest data."""
+    j_d_merde = datetime.datetime(2010,1,1)
+    data = fetch_for(j_d_merde)
+    now = datetime.datetime.now()
+    print data.month, data.day
+    for station in data.stations:
+        for measurement in station.measurements:
+            print station.id, station.guess_name(), measurement.hour,measurement.pollutants.items()
+            if measurement.hour == now.hour:
+                pollutants = [
+                    k for (k,v) in measurement.pollutants.items()
+                        if v > 51
+                ]
+                if pollutants:
+                    send_air_message(station.guess_name(), pollutants)
