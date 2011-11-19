@@ -19,7 +19,7 @@ import json
 
 import twitter as twitter
 
-FR_TEMPLATE = """La station {station} rapporte un niveau élevé de {pollutants} dans la dernière heure. http://bit.ly/sXfDgS"""
+FR_TEMPLATE = """La station {station} rapporte un niveau élevé de {pollutants} dans la dernière heure. http://bit.ly/k77ar9"""
 
 def get_login_details():
     with open("auth.json") as auth_file:
