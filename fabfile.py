@@ -3,13 +3,12 @@
 import csv
 import datetime
 import logging
+import sys
 
 from fabric.api import task
 
 from airquality.fetcher import fetch_for
 from airquality.twitter_sender import send_air_message, get_login_details
-
-logging.basicConfig(level=logging.DEBUG)
 
 @task
 def grab_data(days=5):
@@ -60,17 +59,21 @@ def authenticate_w_twitter():
 @task
 def update_stream():
     """The mother of all tasks to update the stream with the latest data."""
-    j_d_merde = datetime.datetime(2010,1,1)
-    data = fetch_for(j_d_merde)
+    logging.basicConfig(level=logging.DEBUG, filename="kofkofmtl.log")
+    log = logging.getLogger("Stream Updater")
+    data = fetch_for()
     now = datetime.datetime.now()
-    print data.month, data.day
     for station in data.stations:
         for measurement in station.measurements:
-            print station.id, station.guess_name(), measurement.hour,measurement.pollutants.items()
             if measurement.hour == now.hour:
                 pollutants = [
                     k for (k,v) in measurement.pollutants.items()
                         if v > 51
                 ]
                 if pollutants:
+                    log.debug("The measurement at %r at hour %d has the following: %r" % (
+                        station.guess_name(),
+                        measurement.hour,
+                        measurement.pollutants
+                    ))
                     send_air_message(station.guess_name(), pollutants)

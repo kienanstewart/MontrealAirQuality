@@ -1,1 +1,18 @@
-Ceci est le repo pour le MontrealAirQuality feed twitter.
+Kof Kof Montréal
+================
+
+This is the backend code for updating the kofkofmtl twitter feed.
+
+How to run
+----------
+
+Execute
+
+    fab update_stream
+
+which will fetch the latest information and update the stream with any data for THIS hour on twitter if the pollutant > 51
+
+Plans for the future
+--------------------
+
+* Database
