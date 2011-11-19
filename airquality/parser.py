@@ -93,7 +93,7 @@ def Parse(content):
     can raise IQAParserError
     """
     
-    if not isinstance(content, str):
+    if not isinstance(content, basestring):
         raise IQAParserError('content is not a string')
 
     doc = lxml.etree.XML(content)
