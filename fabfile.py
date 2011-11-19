@@ -36,7 +36,7 @@ def grab_data(days=5):
 @task
 def post_update():
     """Posts an update to the twitter feed."""
-    send_air_message("Bienvenue à Kof Kof Montreal!")
+    send_air_message("Maisonneuve", ["NO2", "O3"])
 
 @task
 def authenticate_w_twitter():

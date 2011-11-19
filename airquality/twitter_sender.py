@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Here is the module responsible for posting to twitter. It requires a json file called auth.json in the root directory to hold passwords, etc with the following structure:
 
@@ -29,10 +30,19 @@ def concat_pollutants_fr(pollutants):
     if len(pollutants) == 1:
         return pollutants[0]
     elif len(pollutants) == 2:
-        return "%s et %s" % pollutants
+        return "%s et %s" % (pollutants[0], pollutants[1])
     else:
-        return pollutants
+        return "%s et %s" % (
+            ", ".join(pollutants[:-1]),
+            pollutants[-1]
+        )
+
+FR_TEMPLATE = """La station {station} rapporte un niveau élevé de {pollutants} dans la dernière heure."""
     
 def send_air_message(station, pollutants):
     api = get_api()
-    api.PostUpdate(msg)
+    text = FR_TEMPLATE.format(
+        station=station,
+        pollutants=concat_pollutants_fr(pollutants)
+    )
+    api.PostUpdate(text)
