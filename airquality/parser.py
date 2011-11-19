@@ -6,8 +6,9 @@ quick example
 <iqa><journee jour="19" mois="11" annee="2011"><station id="7" donnees="oui"><echantillon heure="0"><qualite value="7"/><polluant nom="NO2" value="4"/><polluant nom="PM" value="7"/><polluant nom="SO2" value="1"/></echantillon>
 """
 import logging
+import lxml.etree
 import os
-import lxml
+import unittest
 
 log = logging.getLogger(__name__)
 
@@ -19,6 +20,18 @@ class MontrealIQADay(object):
         self.year = year
         self.stations = stations
 
+    
+    def __str__(self):
+        s = repr(self)
+        s += '\nDay: %d\nMonth: %d\nYear: %d\n' %(self.day, self.month, self.year)
+        if self.stations:
+            s += '---- Stations ----\n\t'
+            s += '\n\t'.join([str(x) for x in self.stations])
+        else:
+            s += 'No stations'
+        s += '\n'
+        return s
+
 
 class MontrealIQAStation(object):
     
@@ -26,6 +39,12 @@ class MontrealIQAStation(object):
         self.id = id
         self.name = name
         self.measurements = measurements
+
+    
+    def __str__(self):
+        s = 'Station id %s : name %s' %(self.id, self.name)
+        s += '\n\t' + '\n\t'.join([str(x) for x in self.measurements])
+        return s
 
 
 class MontrealIQAMeasurement(object):
@@ -37,6 +56,11 @@ class MontrealIQAMeasurement(object):
     
     def AddPolutant(name, value):
         self.pollutants[name] = value
+
+    
+    def __str__(self):
+        s = 'Sample at hour %d: %s' %(self.hour, repr(self.pollutants))
+        return s
 
 
 class IQAParserError(Exception):
@@ -86,7 +110,7 @@ def Parse(content):
     month = dayNode.get('mois')
     year = dayNode.get('annee')
     
-    result = MontrealIQADay(day, month, year)
+    result = MontrealIQADay(int(day), int(month), int(year)) #this could throw ValueError
     stations = []
     for node in dayNode:
         if node.tag == 'station':
@@ -101,13 +125,72 @@ def Parse(content):
 def ParseStation(stationnode):
     id = stationnode.get('id')
     if id is None:
+        log.warning('Station node has no id')
         return None
 
     data = stationnode.get('donnees')
     if data != 'oui':
-        log.warning('Station node has no data')
+        log.warning('Station node has no data. donnees tag contained %s != \'oui\'' %data)
         return None
 
     samples = []
-    for subnode in stationnode:
+    for samplenode in stationnode:
+        sample = ParseSample(samplenode)
+        if sample is not None:
+            samples.append(sample)
+
+    #Look up station name from ID???
+    return MontrealIQAStation(int(id), None, samples) # this could throw ValueError
+
+
+def ParseSample(samplenode):
+    if samplenode.tag != 'echantillon':
+        return None
+
+    pollutants = {}
+    hour = samplenode.get('heure')
+    if hour is None:
+        log.warning('sample node has no tag \'heure\'')
+        return None
+
+    for node in samplenode:
+        if node.tag != 'polluant':
+            continue
         
+        pollutant = node.get('nom')
+        pollutantvalue = node.get('value')
+        if pollutant is not None and pollutantvalue is not None:
+            pollutants[pollutant] = int(pollutantvalue) # this could throw ValueError
+        else:
+            log.warning('polluant node has no tag for either \'nom\' or \'value\'')
+
+    if not pollutants:
+        log.warning('no pollutants not found in sample node')
+        return None
+
+    return MontrealIQAMeasurement(int(hour), pollutants) # ValueError here
+
+
+class TestParseExample(unittest.TestCase):
+    
+    def setUp(self):
+        self.examplefilepath = os.path.join(os.path.dirname(__file__), 'test', 'example_day.xml')
+        self.examplestring = ''
+
+
+    def test_fromfile(self):
+        d = ParseFile(self.examplefilepath)
+        self.assertIsNotNone(d)
+        self.assertEqual(d.day, 19)
+        self.assertEqual(d.month, 11)
+        self.assertEqual(d.year, 2011)
+        self.assertIsNotNone(d.stations)
+        print str(d)
+
+
+if __name__ == '__main__':
+    suite = unittest.TestSuite()
+    testcases = (TestParseExample,)
+    for testcase in testcases:
+        suite.addTests(unittest.TestLoader().loadTestsFromTestCase(testcase))
+    unittest.TextTestRunner(verbosity=2).run(suite)

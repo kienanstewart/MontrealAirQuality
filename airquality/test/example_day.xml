@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<iqa>
+  <prevision_actuelle>
+    <qualite value="1"/>
+    <texte_info>
+      <![CDATA[<div style='font-family:"Courier New";font-size:10.0pt;tab-interval:35.4pt'> <p><b> <span style='font-size:16.0pt;color:maroon'>Pr&eacute;vision de la qualit&eacute; de l'air<o:p></span></b> <p> PR&Eacute;VISION DE QUALIT&Eacute; DE L'AIR POUR LE QU&Eacute;BEC &Eacute;MISE CONJOINTEMENT PAR ENVIRONNEMENT CANADA, LE MINIST&Egrave;RE DU D&Eacute;VELOPPEMENT DURABLE, DE L'ENVIRONNEMENT ET DES PARCS, LE MINIST&Egrave;RE DE LA SANT&Eacute; ET DES SERVICES SOCIAUX ET LA VILLE DE MONTR&Eacute;AL. <p> <p>&Agrave; 5H00 HNE LE SAMEDI 19 NOVEMBRE 2011 POUR AUJOURD'HUI ET DIMANCHE.  <br>PROCHAINE PR&Eacute;VISION &Eacute;MISE &Agrave; 16H00. <p><b>POUR LES R&Eacute;GIONS DE</b> <p> MONTR&Eacute;AL M&Eacute;TROPOLITAIN-LAVAL<br> VAUDREUIL-SOULANGES-HUNTINGDON<br> VALL&Eacute;E DU RICHELIEU - SAINT-HYACINTHE<br> LACHUTE - SAINT-J&Eacute;R&Ocirc;ME<br> LANAUDI&Egrave;RE.<br> <p> <span style='color:#3366FF'> <b>AUJOURD'HUI..QUALIT&Eacute DE L'AIR BONNE.</b><br> <b>CE SOIR ET CETTE NUIT..QUALIT&Eacute DE L'AIR BONNE.</b><br> <b>DIMANCHE..QUALIT&Eacute DE L'AIR BONNE.</b><br> </span> <br><br> Ces &eacute;valuations de qualit&eacute; de l'air sont bas&eacute;es sur les pr&eacute;visions m&eacute;t&eacute;orologiques et les concentrations pr&eacute;vues d'ozone de surface et de particules fines.  <br> </div> <div style='font-family:"Courier New";font-size:10.0pt;tab-interval:35.4pt'>  <p>L&#39;hiver, les sources d&#39;&eacute;missions locales, notamment le chauffage au bois et le transport, ont un impact imm&eacute;diat sur la qualit&eacute; de l&#39;air que nous respirons. Que ce soit &agrave; la ville ou &agrave; la campagne, chacun peut contribuer quotidiennement &agrave; maintenir une bonne qualit&eacute; de l&#39;air.  <p><span style='color:#3366FF'> On peut le faire en &eacute;vitant d&#39;utiliser son foyer ou son po&ecirc;le &agrave; bois et en privil&eacute;giant des modes de transport moins polluants</span>  (marche, m&eacute;tro, autobus, train, covoiturage). Si vous devez utiliser un v&eacute;hicule motoris&eacute;, &eacute;vitez de laisser tourner inutilement le moteur.   <p>Pour obtenir plus d&#39;information sur le smog ou conna&icirc;tre la qualit&eacute; de l&#39;air actuelle, on peut consulter les sites web suivants&nbsp;:  <p>VILLE DE MONTREAL :<br> <span style='color:#3366FF'>WWW.RSQA.QC.CA</span>  <p>ENVIRONNEMENT CANADA :<br> <span style='color:#3366FF'>WWW.QC.EC.GC.CA/ATMOS/SMOG</span>  <p>MINISTERE DE LA SANTE ET DES SERVICES SOCIAUX :<br> <span style='color:#3366FF'>WWW.MSSS.GOUV.QC.CA/SUJETS/SANTEPUB/ENVIRONNEMENTALE.HTML</span>  <p>MINISTERE DU DEVELOPPEMENT DURABLE, DE L&#39;ENVIRONNEMENT ET DES PARCS :<br> <span style='color:#3366FF'>WWW.MDDEP.GOUV.QC.CA/AIR/IQA</span> </div>  ]]>
+    </texte_info>
+  </prevision_actuelle>
+  <indice_secteur>
+    <secteur nom="Centre-ville" value="13"/>
+    <secteur nom="Est" value="12"/>
+    <secteur nom="Nord" value="13"/>
+    <secteur nom="Ouest" value="12"/>
+  </indice_secteur>
+  <journee jour="19" mois="11" annee="2011">
+    <station id="7" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="7"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="PM" value="7"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="8"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="PM" value="8"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="8"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="PM" value="8"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="7"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="PM" value="7"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="6"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="PM" value="6"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="5"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="PM" value="5"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="4"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="PM" value="4"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="5"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="PM" value="4"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="5"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="PM" value="4"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="5"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="PM" value="5"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="5"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="PM" value="5"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+    </station>
+    <station id="13" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="20"/>
+        <polluant nom="PM" value="20"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="14"/>
+        <polluant nom="PM" value="14"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="10"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="9"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="8"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="7"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="7"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="7"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="6"/>
+        <polluant nom="PM" value="6"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="8"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="9"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+    </station>
+    <station id="28" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="9"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="11"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="11"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="6"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="9"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="5"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="8"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="6"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="7"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="7"/>
+        <polluant nom="PM" value="6"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="7"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="7"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+    </station>
+    <station id="29" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="4"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="4"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="13"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="13"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="8"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="13"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="13"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+    </station>
+    <station id="3" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="13"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="7"/>
+        <polluant nom="PM" value="13"/>
+        <polluant nom="SO2" value="8"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="14"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="14"/>
+        <polluant nom="SO2" value="8"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="12"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="12"/>
+        <polluant nom="SO2" value="4"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="13"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="13"/>
+        <polluant nom="PM" value="10"/>
+        <polluant nom="SO2" value="2"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="10"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="10"/>
+        <polluant nom="SO2" value="5"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="10"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="6"/>
+        <polluant nom="PM" value="10"/>
+        <polluant nom="SO2" value="3"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="11"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="11"/>
+        <polluant nom="SO2" value="2"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="11"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="11"/>
+        <polluant nom="SO2" value="3"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="10"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="10"/>
+        <polluant nom="SO2" value="3"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="9"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="7"/>
+        <polluant nom="PM" value="9"/>
+        <polluant nom="SO2" value="3"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="12"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="9"/>
+        <polluant nom="SO2" value="3"/>
+      </echantillon>
+    </station>
+    <station id="50" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="9"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="9"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="8"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="9"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="8"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="7"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="8"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="8"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="9"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="10"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="10"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+    </station>
+    <station id="55" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="12"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="7"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="8"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="8"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="7"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="8"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="6"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="9"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="5"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="6"/>
+        <polluant nom="O3" value="3"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="11"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="5"/>
+        <polluant nom="PM" value="11"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="11"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="11"/>
+      </echantillon>
+    </station>
+    <station id="61" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="20"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="5"/>
+        <polluant nom="PM" value="20"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="14"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="6"/>
+        <polluant nom="PM" value="14"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="6"/>
+        <polluant nom="PM" value="10"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="9"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="9"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="8"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="6"/>
+        <polluant nom="PM" value="8"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="8"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="7"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="9"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="7"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="7"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="6"/>
+        <polluant nom="PM" value="7"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="6"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="5"/>
+        <polluant nom="PM" value="6"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="8"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="6"/>
+        <polluant nom="PM" value="8"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="9"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="9"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+    </station>
+    <station id="66" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="13"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="1"/>
+        <polluant nom="O3" value="13"/>
+        <polluant nom="PM" value="6"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="13"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="1"/>
+        <polluant nom="O3" value="13"/>
+        <polluant nom="PM" value="6"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="13"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="13"/>
+        <polluant nom="PM" value="5"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="5"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="5"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="9"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="10"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="12"/>
+        <polluant nom="CO" value="1"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="6"/>
+      </echantillon>
+    </station>
+    <station id="68" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="12"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="14"/>
+        <polluant nom="NO2" value="1"/>
+        <polluant nom="O3" value="14"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="13"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="13"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="14"/>
+        <polluant nom="NO2" value="1"/>
+        <polluant nom="O3" value="14"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="14"/>
+        <polluant nom="NO2" value="1"/>
+        <polluant nom="O3" value="14"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="14"/>
+        <polluant nom="NO2" value="1"/>
+        <polluant nom="O3" value="14"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="12"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="12"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="11"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="11"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="12"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="12"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="13"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="13"/>
+      </echantillon>
+    </station>
+    <station id="99" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="11"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="7"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="10"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="11"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="11"/>
+        <polluant nom="NO2" value="2"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="8"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="8"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="9"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="6"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="10"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="11"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="9"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="7"/>
+        <polluant nom="PM" value="9"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="10"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="11"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="10"/>
+      </echantillon>
+    </station>
+    <station id="80" donnees="oui">
+      <echantillon heure="0">
+        <qualite value="18"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="18"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="1">
+        <qualite value="19"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="19"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="2">
+        <qualite value="20"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="20"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="3">
+        <qualite value="15"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="12"/>
+        <polluant nom="PM" value="15"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="4">
+        <qualite value="13"/>
+        <polluant nom="NO2" value="3"/>
+        <polluant nom="O3" value="11"/>
+        <polluant nom="PM" value="13"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="5">
+        <qualite value="11"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="11"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="6">
+        <qualite value="8"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="8"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="7">
+        <qualite value="8"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="8"/>
+        <polluant nom="PM" value="8"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="8">
+        <qualite value="7"/>
+        <polluant nom="NO2" value="5"/>
+        <polluant nom="O3" value="7"/>
+        <polluant nom="PM" value="7"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="9">
+        <qualite value="9"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="9"/>
+        <polluant nom="PM" value="8"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+      <echantillon heure="10">
+        <qualite value="10"/>
+        <polluant nom="NO2" value="4"/>
+        <polluant nom="O3" value="10"/>
+        <polluant nom="PM" value="10"/>
+        <polluant nom="SO2" value="1"/>
+      </echantillon>
+    </station>
+  </journee>
+</iqa>
