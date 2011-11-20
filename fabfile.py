@@ -63,6 +63,7 @@ def update_stream():
     log = logging.getLogger("Stream Updater")
     data = fetch_for()
     now = datetime.datetime.now()
+    found = False
     for station in data.stations:
         for measurement in station.measurements:
             if measurement.hour == now.hour:
@@ -71,9 +72,13 @@ def update_stream():
                         if v > 51
                 ]
                 if pollutants:
+                    found = True
                     log.debug("The measurement at %r at hour %d has the following: %r" % (
                         station.guess_name(),
                         measurement.hour,
                         measurement.pollutants
                     ))
                     send_air_message(station.guess_name(), pollutants)
+    
+    if not found:
+        log.debug("No records tweeted on %s" % now)
