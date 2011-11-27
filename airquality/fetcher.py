@@ -35,4 +35,4 @@ def fetch_for(day=None):
             )
         )
 
-    return Parse(str(answer.content))
+    return Parse(answer.content.encode("iso-8859-1"))
